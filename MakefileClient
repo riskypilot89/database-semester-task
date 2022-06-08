@@ -1,0 +1,4 @@
+program: client.o
+	g++ client.o -std=c++11 -O3 -o client
+client.o: client.cpp
+	g++ -c client.cpp -std=c++11 -O3
